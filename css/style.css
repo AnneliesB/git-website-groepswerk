@@ -10,3 +10,27 @@ header{
     width: 100vw;
     height: 100vh;
 }
+nav{
+    width: 50%;
+    margin: auto;
+}
+nav a{
+    display: inline-block;
+    width: 49%;
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+h1{
+    color: #fff;
+    text-shadow: 0 2px 5px #000;
+    text-align: center;
+
+}
+.wrapper{
+    width: 40%;
+    margin: auto;
+}
+footer{
+    background-color: #000;
+}
