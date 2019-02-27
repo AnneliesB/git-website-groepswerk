@@ -1,26 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
 }
-header{
+
+header {
     background-image: url(../img/hero.jpg);
     background-size: fill;
     width: 100vw;
     height: 100vh;
 }
-.wrapper{
+
+.wrapper {
     width: 40%;
     margin: auto;
 }
-nav{
+
+nav {
     width: 50%;
     margin: auto;
     padding: 1em;
 }
-nav a{
+
+nav a {
     text-align: center;
     width: 49%;
     min-width: 140px;
@@ -31,7 +35,8 @@ nav a{
     text-transform: uppercase;
     letter-spacing: .3em;
 }
-nav a::after{
+
+nav a::after {
     content: " ";
     display: block;
     width: 25px;
@@ -39,9 +44,9 @@ nav a::after{
     background: #fff;
     margin: 10px auto;
     transition: all ease 300ms;
-
 }
-nav a:hover::after{
+
+nav a:hover::after {
     content: " ";
     display: block;
     width: 75px;
@@ -49,12 +54,14 @@ nav a:hover::after{
     background: #fff;
     margin: 10px auto;
 }
-h1{
+
+h1 {
     color: #fff;
     text-shadow: 0 2px 5px #000;
     text-align: center;
 }
-.slogan{
+
+.slogan {
     color: #fff;
     text-align: center;
     font-size: 1.2em;
@@ -62,7 +69,8 @@ h1{
     text-transform: capitalize;
     padding: 1em;
 }
-.cta{
+
+.cta {
     border: 2px solid #fff;
     color: #fff;
     padding: .5em;
@@ -74,20 +82,24 @@ h1{
     max-width: 220px;
     transition: all ease 300ms;
 }
-.cta:hover{
+
+.cta:hover {
     background: white;
     color: black;
 }
-.content{
+
+.content {
     background: rgba(0, 0, 0, 0.4);
     padding: 1em;
     margin-top: 40%;
 }
-footer{
+
+footer {
     background-color: #000;
 }
-@media screen and (max-width: 600px){
-    .wrapper{
+
+@media screen and (max-width: 600px) {
+    .wrapper {
         width: calc(100% - 20px);
         padding: 10px;
     }
