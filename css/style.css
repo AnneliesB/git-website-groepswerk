@@ -13,6 +13,7 @@ header{
 nav{
     width: 50%;
     margin: auto;
+    padding: 1em;
 }
 nav a{
     display: inline-block;
@@ -20,12 +21,14 @@ nav a{
     color: #fff;
     font-size: 1.2em;
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .3em;
 }
 h1{
     color: #fff;
     text-shadow: 0 2px 5px #000;
     text-align: center;
-
+    padding: 10em 0 0 0;
 }
 .wrapper{
     width: 40%;
