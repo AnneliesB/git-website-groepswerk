@@ -98,6 +98,34 @@ footer {
     background-color: #000;
 }
 
+ul {
+    width: 300px;
+    margin: auto;
+}
+
+li {
+    padding: 0.5em;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+li.you {
+    background-color: #1A8CFE;
+    color: #fff;
+    margin-left: 100px;
+    margin-right: 0px;
+    align-content: right;
+    border-bottom-right-radius: 0px;
+    float: right;
+}
+
+li.bot {
+    background-color: #E5E4E9;
+    color: #000;
+    border-bottom-left-radius: 0px;
+}
+
 @media screen and (max-width: 600px) {
     .wrapper {
         width: calc(100% - 20px);
